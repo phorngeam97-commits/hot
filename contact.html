@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ទំនាក់ទំនង - ទេសចរណ៍កម្ពុជា</title>
+    <link rel="stylesheet" href="link.css">
+    <style>
+        .contact-form {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🇰🇭 ទេសចរណ៍កម្ពុជា</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">ទំព័រដើម</a></li>
+                <li><a href="gallery.html">អង្គរវត្ត</a></li>
+                <li><a href="destinations.html">តំបន់ឆ្នេរ</a></li>
+                <li><a href="culture.html">រាជធានីភ្នំពេញ</a></li>
+                <li><a href="contact.html" class="active">ទំនាក់ទំនង</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=1200&q=80');">
+        <h1>ទាក់ទងមកយើងខ្ញុំ</h1>
+        <p>សម្រាប់ព័ត៌មានបន្ថែមទាក់ទងនឹងដំណើរទេសចរណ៍ក្នុងប្រទេសកម្ពុជា។</p>
+    </section>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2 style="margin-bottom: 20px; color: #1b263b; text-align: center;">ផ្ញើសារសាកសួរព័ត៌មាន</h2>
+            <form>
+                <div class="form-group">
+                    <label>ឈ្មោះរបស់អ្នក៖</label>
+                    <input type="text" placeholder="បញ្ចូលឈ្មោះ..." required>
+                </div>
+                <div class="form-group">
+                    <label>អ៊ីមែល (Email)៖</label>
+                    <input type="email" placeholder="example@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label>សាររបស់អ្នក៖</label>
+                    <textarea rows="5" placeholder="សរសេរព័ត៌មានដែលចង់សាកសួរ..." required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">បញ្ជូនសារ</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ទេសចរណ៍កម្ពុជា។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+</body>
+</html>
